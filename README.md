@@ -1,10 +1,10 @@
-### OLED 0.96" 128x64 I2C Display
-https://docs.micropython.org/en/latest/esp8266/tutorial/ssd1306.html  
-https://github.com/stlehmann/micropython-ssd1306/blob/master/ssd1306.py  
-
+### MY MICROPYTHON EXPERIMENTS
+Some microPython experiments with Raspberry Pico.  
+Use at your own risk.
 
 ## PINOUT
 ```txt
+>>> RASPBERRY PICO PINOUT
                                          ---usb---
 UART0 TX - I2C0 SDA - SPI0 RX  - GP0  1  |o     o| 40  VBUS
 UART0 RX - I2C0 SCL - SPI0 CSn - GP1  2  |o     o| 39  VSYS
