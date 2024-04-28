@@ -1,8 +1,8 @@
 import machine
 
-I2C_SDA_PIN = 0
-I2C_SCL_PIN = 1
-I2C_ID=0 # id=1 See Pinout diagram (id=1 == sda2 and scl3)
+I2C_SDA_PIN = 14
+I2C_SCL_PIN = 15
+I2C_ID=1 # id=1 See Pinout diagram (id=1 == sda2 and scl3)
 
 i2c=machine.I2C(I2C_ID,sda=machine.Pin(I2C_SDA_PIN), scl=machine.Pin(I2C_SCL_PIN), freq=400000)
 
